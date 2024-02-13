@@ -115,8 +115,8 @@ SAVEPOINT: It is used to temporarily save a transaction.
 
 ## Oracle Data Types
 
-**VARCHAR2(size)**: from 0-size will use just 10 characters of space.
- Its called variable-length character data.
+**VARCHAR2(size)**: from 0-size will use just 10 characters of space. variable-length character data.
+
 **CHAR(size)**: 0-size will use the full size disk space in the db. Its called fized-length character data.
 **NUMBER(precision, scale)**: It is used to store numeric data. fixed or floating point number.
 **DATE**: It is used to store date and time.
