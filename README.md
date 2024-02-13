@@ -115,14 +115,14 @@ SAVEPOINT: It is used to temporarily save a transaction.
 
 ## Oracle Data Types
 
-**VARCHAR2(size)**: from 0-size will use just 10 characters of space. Variable-length character data.  
-**CHAR(size)**: 0-size will use the full size disk space in the db. It's called fixed-length character data.  
-**NUMBER(precision, scale)**: It is used to store numeric data. Fixed or floating-point number.  
-**DATE**: It is used to store date and time.  
-**LONG**: It is used to store variable-length character data. NOT RECOMMENDED  
-**RAW(size)**: It is used to store binary data.  
-**LONG RAW**: It is used to store binary data.  
-**BLOB**: It is used to store binary data. Large objects like images, videos, sound (8TB to 128TB)  
-**CLOB**: It is used to store a large amount of character data.  
-**BFILE**: It is used to store binary data outside the database. Up to 4GB. READ ONLY  
-**ROWID**: It is used to store the address of a row in the database. Represents the unique address of a row in the table.
+- **VARCHAR2(size)**: from 0-size will use just 10 characters of space. Variable-length character data.  
+- **CHAR(size)**: 0-size will use the full size disk space in the db. It's called fixed-length character data.  
+- **NUMBER(precision, scale)**: It is used to store numeric data. Fixed or floating-point number.  
+- **DATE**: It is used to store date and time.  
+- **LONG**: It is used to store variable-length character data. NOT RECOMMENDED  
+- **RAW(size)**: It is used to store binary data.  
+- **LONG RAW**: It is used to store binary data.  
+- **BLOB**: It is used to store binary data. Large objects like images, videos, sound (8TB to 128TB)  
+- **CLOB**: It is used to store a large amount of character data.  
+- **BFILE**: It is used to store binary data outside the database. Up to 4GB. READ ONLY  
+- **ROWID**: It is used to store the address of a row in the database. Represents the unique address of a row in the table.
