@@ -131,5 +131,41 @@ NULL: It is used to represent unknown or data that not exists.
 
 DESCRIBE: Returns column names, nullable or not, and data types.
 ```sql
-DESC[ribe] table_name;
+DESC table_name;
 ```
+
+INFORMATION: Returns information about the database.
+```sql
+INFORMATION table_name;
+```
+
+sql Statements:
+```sql
+    SELECT * FROM table_name;
+    Select * From table_name;
+    select * from table_name;
+    sELEcT * fRoM table_name;
+```
+те не са case sensitive.
+Могат да бъдат разделени на няколко реда.
+```sql
+    SELECT
+        column1,
+        column2,
+        column3
+    FROM
+        table_name;
+```
+ключовите думи не могат да бъдат разделени или съкратени.
+distinct и unique са синоними и еднакви
+unique може изобщо да бъде разпозната от други бази данни.
+distinct оператора е ред базиран оператор което значи че 
+```sql
+    SELECT DISTINCT JOB_ID FROM EMPLOYEES;
+```
+
+това ще даде грешка:
+```sql
+    SELECT DISTINCT JOB_ID, DISTINCT DEPARTMENT_ID FROM EMPLOYEES;
+```
+
