@@ -113,8 +113,7 @@ COMMIT: It is used to save the transaction.
 ROLLBACK: It is used to restore the database to original since the last COMMIT.
 SAVEPOINT: It is used to temporarily save a transaction.
 
-## Oracle Data Types
-
+# Oracle Data Types
 - **VARCHAR2(size)**: from 0-size will use just 10 characters of space. Variable-length character data.  
 - **CHAR(size)**: 0-size will use the full size disk space in the db. It's called fixed-length character data.  
 - **NUMBER(precision, scale)**: It is used to store numeric data. Fixed or floating-point number.  
