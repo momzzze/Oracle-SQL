@@ -125,3 +125,11 @@ SAVEPOINT: It is used to temporarily save a transaction.
 - **CLOB**: It is used to store a large amount of character data.  
 - **BFILE**: It is used to store binary data outside the database. Up to 4GB. READ ONLY  
 - **ROWID**: It is used to store the address of a row in the database. Represents the unique address of a row in the table.
+
+
+NULL: It is used to represent unknown or data that not exists.
+
+DESCRIBE: Returns column names, nullable or not, and data types.
+```sql
+DESC[ribe] table_name;
+```
